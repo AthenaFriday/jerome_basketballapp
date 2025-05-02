@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "890445595039",
+    "project_id": "basketballapp-9d192",
+    "storage_bucket": "basketballapp-9d192.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890445595039:android:8aa38d332c651aaf8ebdaa",
+        "android_client_info": {
+          "package_name": "com.android.basketballapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJuuWZX7htweH51GWpPaCzvsEKSgQEYGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
