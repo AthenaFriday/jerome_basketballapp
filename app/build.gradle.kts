@@ -84,4 +84,9 @@ dependencies {
     implementation(kotlin("test"))
 
     testImplementation(libs.junit)
+    testImplementation(libs.mockk)
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.turbine)
+
+
 }

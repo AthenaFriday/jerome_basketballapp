@@ -6,9 +6,11 @@ firebaseBom = "33.13.0"
 
 # AndroidX & Jetpack
 coreKtx = "1.16.0"
+kotlinxCoroutinesTest = "1.7.3"
 lifecycleRuntimeKtx = "2.8.7"
 activityCompose = "1.10.1"
 composeBom = "2025.04.01"
+mockk = "1.13.8"
 playServicesGames = "23.2.0"
 navigationRuntimeKtx = "2.8.9"
 navigationCompose = "2.8.9"
@@ -24,6 +26,7 @@ junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 supportAnnotations = "28.0.0"
+turbine = "1.0.0"
 
 [libraries]
 # AndroidX & Jetpack Compose
@@ -48,6 +51,8 @@ firebase-analytics-ktx = { group = "com.google.firebase", name = "firebase-analy
 firebase-firestore-ktx = { group = "com.google.firebase", name = "firebase-firestore-ktx" }
 
 # Google Play Services
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesTest" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
 play-services-games = { group = "com.google.android.gms", name = "play-services-games", version.ref = "playServicesGames" }
 
 # Retrofit & Moshi
@@ -68,6 +73,7 @@ androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-co
 # Misc
 transport-runtime = { group = "com.google.android.datatransport", name = "transport-runtime", version.ref = "transportRuntime" }
 support-annotations = { group = "com.android.support", name = "support-annotations", version.ref = "supportAnnotations" }
+turbine = { module = "app.cash.turbine:turbine", version.ref = "turbine" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
