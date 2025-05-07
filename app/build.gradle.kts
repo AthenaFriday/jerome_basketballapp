@@ -81,4 +81,7 @@ dependencies {
 
     // Optional Support Annotations
     implementation(libs.support.annotations)
+    implementation(kotlin("test"))
+
+    testImplementation(libs.junit)
 }
